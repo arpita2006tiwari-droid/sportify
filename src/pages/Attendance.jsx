@@ -37,6 +37,7 @@ const Attendance = () => {
           <ListTodo size={18} /> Today
         </button>
         <button
+          id="calendar-toggle-btn"
           onClick={() => setView('calendar')}
           className={`flex-1 py-2 text-sm font-semibold rounded-lg flex justify-center items-center gap-2 transition-all ${
             view === 'calendar' ? 'bg-white shadow-sm text-blue-600' : 'text-gray-500'
